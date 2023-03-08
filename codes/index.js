@@ -1,5 +1,5 @@
 alert(
-  "Diqqət bu sayt yalnız zarafat məqsədi ilə yaradılmışdır, kimisə təqqir etmək məqsədi ilə yox!!!"
+  "Diqqət bu sayt yalnız zarafat məqsədi ilə yaradılmışdır, kimisə təhqir etmək məqsədi ilə yox!!!"
 );
 
 console.log("Nə  gəzirsən burda çox bilmiş");
