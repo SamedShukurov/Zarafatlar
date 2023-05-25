@@ -21,11 +21,41 @@ main {
   padding: 100px;
 
 }
+.continued{
+  display: flex;
+  width: 20%;
+  height: 40px;
+  background-color: blueviolet;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.continued::after{
+  content: "To be continued....";
+}
+.active{
+  display: flex;
+  width: 20%;
+  height: 40px;
+  color: blueviolet;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.active::after{
+  content: "Yoxdu hələki";
+}
 footer {
   display: flex;
   justify-content: space-around;
 }
-@media(max-width: 450px),(min-width:650px) {
+
+@media(min-width: 450px),(max-width:650px) {
   main {
     padding:0;
     margin: 0 ;
@@ -39,5 +69,13 @@ footer {
   .author{
     padding-top: 100px;
     font-size: 24px;
+  }
+  .continued{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .active{
+    width: 80%;
+    margin: 0 auto;
   }
 }
