@@ -79,3 +79,10 @@ footer {
     margin: 0 auto;
   }
 }
+.closed{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
